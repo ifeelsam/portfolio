@@ -10,9 +10,9 @@ export const Footer = ({ className }) => (
       <span className={styles.date}>
         {`© ${new Date().getFullYear()} ${config.name}.`}
       </span>
-      <Link secondary className={styles.link} href="/humans.txt" target="_self">
+      {/* <span secondary className={styles.link}>
         Crafted by yours truly
-      </Link>
+      </span> */}
     </Text>
   </footer>
 );
